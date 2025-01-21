@@ -27,7 +27,7 @@
 
 #### 直接使用（单文件）
 
-1. 下载 [`feishu_table_api.py`](https://github.com/encyc/feishu_table_api) 到项目目录
+1. 下载 [`feishu_table_api.py`](https://github.com/encyc/feishu_table_api/feishu_table_api.py) 到项目目录
 2. 安装依赖：
 
 ```
