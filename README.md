@@ -8,11 +8,17 @@
 ## 功能特性
 
 ✅ 开箱即用的单文件实现
+
 ✅ 完善的类型提示与文档说明
+
 ✅ 自动化的Token缓存与刷新机制
+
 ✅ 智能处理Pandas DataFrame数据格式
+
 ✅ 全面的错误处理与重试机制
+
 ✅ 支持批量操作与分块上传
+
 ✅ 符合企业级应用的安全规范
 
 ## 快速开始
@@ -21,17 +27,11 @@
 
 #### 直接使用（单文件）
 
-1. 下载 [`feishu_api.py`](https://github.com/encyc/feishu_table_api) 到项目目录
+1. 下载 [`feishu_table_api.py`](https://github.com/encyc/feishu_table_api) 到项目目录
 2. 安装依赖：
 
 ```
 pip install requests pandas
-```
-
-#### 通过pip安装（推荐）
-
-```bash
-pip install feishu-table-api
 ```
 
 ### 基础用法
@@ -62,8 +62,8 @@ data = pd.DataFrame({
 })
 
 response = api.insert_multi_data_to_table(
-    app_token="bascnAbc123",
-    table_id="tblKj78mn",
+    app_token="test_app_token",
+    table_id="test_table_id",
     data=data,
     chunk_size=500
 )
